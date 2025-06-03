@@ -23,6 +23,8 @@ input_container: {
     justifyContent: 'space-between',
     paddingHorizontal: 10,
     alignItems: 'center',
+    position: 'absolute',
+    top: 50,
 },
 input: {
     color: '#D9CCC1',
