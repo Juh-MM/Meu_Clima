@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import Input from './components/Input';
-import MainCard from './components/MainCard';
-import MiniCard from './components/MiniCard';
+import Input from './src/components/Input';
+import MainCard from './src/components/MainCard';
+import MiniCard from './src/components/MiniCard';
 
 export default function App() {
   return (

@@ -6,8 +6,8 @@ export default function Input() {
     return (
         <View style={styles.input_container}>
             <Ionicons name="search" size={24} color="#D9CCC1" />
-            <TextInput style={styles.input}/>
-            <Ionicons name="ellipse" size={24} color="#D9CCC1" />
+            <TextInput style={styles.input} id='input' />
+            <Ionicons name="ellipse" size={24} color="#D9CCC1" id='profile' />
         </View>
     );
 }
