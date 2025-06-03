@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 export default function MainCard() {
     return (
     <LinearGradient
-        colors={['#004C6B', '#023E73']}
+        colors={['#024059', '#023E73']}
         style={styles.card_content}>
             <View style={styles.header}>
                 <Text style={styles.header_text}>Recife-PE</Text>
